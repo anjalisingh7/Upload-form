@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    paddding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif
+
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+
+    background-color: #b0b0b0;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png")
+}
+
+#file-upload{
+    max-width: 500px;
+    min-width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: #888;
+}
+
+.frame{
+    padding: 1px 0; /* to avoid margin collaps */
+    border-left: 1px solid #2a88ad;
+    border-right: 1px solid #2a88ad;
+    border-bottom: 1px solid #2a88ad;
+}
+.form_headfoot{
+    background:#2a88ad;
+    color:white;
+    padding:15px 0;
+}
+
+.no-margin{
+    text-align: center;
+}
+
+label{
+    margin-left: 20px;
+}
+
+
+.datepicker td, .datepicker th {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+}
+
+.datepicker {
+    margin-bottom: 3rem;
+}
+
+.input-group {
+    border-radius: 30rem;
+}
+
+input.form-control {
+    border: none;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+}
+
+input.form-control::placeholder {
+    font-style: italic;
+}
+
+
+   
+
+.datepicker-dropdown {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .btn{
+   align-items: center;
+   justify-content: center;
+} */
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #2a88ad !important;
+    padding: 20px 0;
+    border-radius: 6px;
+    display:block;
+   
+}
+
+.btn-primary:hover {
+  background-color: #0e5c7a !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+#datepicker{
+    width:180px; margin: 0 20px 20px 20px;
+}
+#datepicker > span:hover{cursor: pointer;}

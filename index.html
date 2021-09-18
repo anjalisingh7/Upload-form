@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Upload form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ae2254a4c0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  
+  </head>
+  <body>
+      <div class="container-xl" mx-auto>
+       
+            <!--form -->
+            <form id="file-upload" class="frame" method="post" >
+
+              <div class="form_headfoot form_headfoot--header">
+                <h1 class="no-margin">Upload File</h1>
+                </div>
+              
+
+              <div class="form-group m-5 pt-3 pb-1"  >
+                <div class="custom-file" >
+                  <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                  <label class="custom-file-label" for="validatedCustomFile">Choose File</label>
+                </div>
+              </div>
+
+              <div class="form-group m-5 pt-1 pb-1">
+                 <label for="exampleFormControlSelect1">SELECT TYPE</label>
+                 <select class="form-control" id="exampleFormControlSelect1">
+                   <option>SMALL SQUARE - 250x250</option>
+                   <option>SMALL RECTANGLE - 200x200</option>
+                   <option>SMALL RECTANGLE - 180x150</option>
+                   <option>MEDIUM RECTANGLE - 300x250</option>
+                   <option>LARGE RECTANGLE - 336x280</option>
+                   <option>BANNER - 468x60</option>
+                 </select>
+              </div>
+              
+              <div class="form-group m-5 pt-1 pb-1">
+                 <!-- Date input -->
+                      <div class="datepicker date input-group p-0 shadow-sm">
+                        <label for="exampleFormControlSelect1">FROM</label>
+                          <input type="date" placeholder="FROM" class="form-control py-4 px-4" id="selectFromDate">
+                          <div class="input-group-append"><span class="input-group-text px-4"><i class="fas fa-calendar "></i></span></div>
+                      </div>
+              </div>
+
+              <div class="form-group m-5">
+                <!-- Date input -->
+                     <div class="datepicker date input-group p-0 shadow-sm">
+                       <label for="exampleFormControlSelect1">TO</label>
+                         <input type="date" placeholder="TO" class="form-control py-4 px-4" id="selectToDate">
+                         <div class="input-group-append"><span class="input-group-text px-4"><i class="fas fa-calendar "></i></span></div>
+                     </div>
+             </div>
+
+              
+              <!-- End date Picker Input -->
+              <button type="submit" class="btn btn-primary btn-lg btn-block mx-auto">SUBMIT</button>
+              
+            </form>
+         
+      </div>
+      
+    
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="/script.js">
+    </script>
+  </body>
+</html>
